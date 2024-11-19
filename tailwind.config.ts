@@ -22,7 +22,8 @@ const config: Config = {
         "Primary-color-4": "#F4A525",
         "Neutral-color-2": "#88909C",
         "Neutral-color-7": "#F5F5F5",
-        "Neutral-color-6": "#FFF"
+        "Neutral-color-6": "#FFF",
+        "Secondary-color-1":"#5C8F8C"
       },
       fontWeight: {
         thin: '100',

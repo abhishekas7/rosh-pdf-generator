@@ -19,7 +19,8 @@ const LiveQuery: React.FC<LiveQueryProps> = ({ chats = [], tabContent }) => {
                     {chats.map((item, index) => (
                         <div
                             key={index}
-                            className="max-w-[350px] px-[27.5px] py-[17px] rounded-[8px] bg-Neutral-color-6 text-left text-Neutral-color-2 font-medium"
+                            className="cursor-pointer max-w-[350px] px-[14px] py-[12px] rounded-[8px] bg-Neutral-color-6 text-left text-Neutral-color-2 font-medium 
+                               border border-transparent hover:border-Secondary-color-1 transition-all"
                         >
                             {item.text}
                         </div>
